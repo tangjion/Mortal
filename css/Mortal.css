@@ -1,0 +1,290 @@
+/*
+ * Mortal v0.1
+ * Copyright 2015-2016 Martal.
+ * MIT License (https://github.com/tangjion/Mortal)
+ */
+
+/*
+ * 字体抗锯齿
+*/
+*{
+    -moz-osx-font-smoothing:grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+/*
+ * 设置默认字体大小
+*/
+
+html{
+    font-size: 62.5%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+
+/*
+ * 重置标签样式和字体大小
+*/
+
+a,
+abbr,
+acronym,
+address,
+area,
+article,
+aside,
+audio,
+b,
+base,
+bdi,
+bdo,
+big,
+blockquote,
+body,
+button,
+canvas,
+caption,
+cite,
+code,
+col,
+datalist,
+div,
+dfn,
+dialog,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+frame,
+frameset,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+i,
+iframe,
+img,
+input,
+ins,
+kbd,
+keygen,
+label,
+legend,
+li,
+mark,
+menu,
+menuitem,
+meter,
+nav,
+ol,
+option,
+p,
+pre,
+q,
+samp,
+section,
+small,
+span,
+strong,
+sub,
+summary,
+sup,
+table,
+td,
+textarea,
+th,
+time,
+tr,
+tt,
+ul,
+video{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 1.2rem;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*
+ * 去除h1-h6,strong,b的默认粗体
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong,
+b{
+    font-weight: normal;
+}
+
+/*
+ * 去除ul,li,ol的默认样式
+*/
+
+ul,
+li,
+ol{
+    list-style: none;
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+
+[hidden],
+template {
+    display: none;
+}
+
+/*
+ * 去除a标签的默认下划线样式
+*/
+
+a:link,
+a:hover,
+a:visited,
+a:active{
+    text-decoration: none;
+}
+
+/*
+ * 设置dnf标签的样式
+*/
+
+dfn{
+    font-style: italic;
+}
+
+/*
+ * 设置mark标签的样式
+*/
+
+mark{
+    background-color: #ff0;
+    color: #000;
+}
+
+/*
+ * 设置small标签的字体大小
+*/
+
+small{
+    font-size: 80%;
+}
+
+/*
+ * 设置sub,sup标签的样式和字体大小
+*/
+
+sub,
+sup{
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sup{
+    top: -0.5rem;
+}
+
+sub{
+    bottom: -0.25rem;
+}
+
+svg:not(:root){
+    overflow: hidden;
+}
+
+/*
+ * 设置hr标签的样式
+*/
+
+hr{
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 0;
+}
+
+/*
+ * 设置按钮样式和鼠标样式
+*/
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"]{
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+button[disabled],
+html input[disabled]{
+    cursor: default;
+}
+
+/*
+ * 去除table的默认内外边距
+*/
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*
+ * 设置图片默认对齐方式为middle
+*/
+
+img{
+    vertical-align: middle;
+}
+
+/*
+ * 行内标签改成块级标签
+*/
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+    display: block;
+}
+
+/*
+ * 设置媒体标签默认样式
+*/
+
+audio,
+canvas,
+progress,
+video {
+    display: inline-block;
+    vertical-align: baseline;
+}
